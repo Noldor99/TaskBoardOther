@@ -1,5 +1,3 @@
-import React from "react"
-
 import { IconTrash } from "@tabler/icons-react"
 
 import { Button } from "@/components/ui/button"

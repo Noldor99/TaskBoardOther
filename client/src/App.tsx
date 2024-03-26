@@ -9,7 +9,7 @@ function App() {
     <React.Suspense fallback={<div>Loading...</div>}>
       <Routes>
         <Route path="/" element={<LayoutWrapper />}>
-          <Route path="/" element={<Home />} />
+          <Route path="/simpleTaskBlog" element={<Home />} />
         </Route>
         <Route path="*" element={<NotFoundBlock />} />
       </Routes>
