@@ -18,7 +18,7 @@ async function start() {
   useContainer(app.select(AppModule), { fallbackOnErrors: true });
 
   app.use((req, res, next) => {
-    const allowedOrigins = [`http://localhost:${PORT}`];
+    const allowedOrigins = [`https://task-board-other-hp9yijlly-noldor99s-projects.vercel.app, http://localhost:${PORT}`];
 
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
